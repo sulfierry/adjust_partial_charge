@@ -20,3 +20,15 @@ This script is designed to adjust the partial charges of hydrogen atoms in a mol
 ### Implementation Details
 
 The script includes functions for reading charges from a MOL2 file, adjusting hydrogen charges, formatting and saving the adjusted MOL2 file, and plotting the percentage differences in hydrogen charges. It is designed to be easily integrated into workflows requiring precise charge adjustments in molecular modeling projects.
+
+### Motivation and Context
+
+Adjusting the partial charges of hydrogen atoms is crucial for accurate molecular modeling and simulations. Incorrect charge distributions can lead to inaccurate predictions of molecular behavior, impacting the results of energy calculations, docking studies, and dynamic simulations. This script ensures the molecular charge is appropriately balanced, enhancing the reliability of molecular modeling projects.
+
+### Limitations and Considerations
+
+This script is optimized for small to medium-sized organic molecules. For large biomolecules or highly charged systems, additional validation of the adjusted charges is recommended to ensure accuracy.
+
+### Contributions and Feedback
+
+We welcome contributions and feedback on this script. If you have suggestions for improvements or have found an issue, please submit a pull request or open an issue on the GitHub repository page.
