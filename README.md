@@ -7,15 +7,15 @@ This script is designed to adjust the partial charges of hydrogen atoms in a mol
    $$Q_{total} = \sum_{i=1}^{n} q_i$$
 
 2. **Adjustment Determination:**
-   To achieve a desired total charge \(Q_{obj}\) (e.g., 0 for neutral molecules), the necessary adjustment \(\Delta Q\) is calculated as:
+   To achieve a desired total charge ($Q_{obj}\$) (e.g., 0 for neutral molecules), the necessary adjustment ($\Delta Q\$) is calculated as:
    $$\Delta Q = Q_{obj} - Q_{total}$$
 
 3. **Distribution of Adjustment Among Hydrogens:**
-   The adjustment per hydrogen \(\Delta q\) is ideally distributed equally among all \(m\) hydrogen atoms identified for adjustment:
+   The adjustment per hydrogen ($\Delta q\$) is ideally distributed equally among all ($m\$) hydrogen atoms identified for adjustment:
    $$\Delta q = \frac{\Delta Q}{m}$$
 
 4. **Final Adjustment:**
-   After initial distribution and rounding, a final adjustment may be necessary to ensure the total charge matches \(Q_{obj}\) precisely, applying a fine adjustment to one hydrogen atom if needed.
+   After initial distribution and rounding, a final adjustment may be necessary to ensure the total charge matches ($Q_{obj}\$) precisely, applying a fine adjustment to one hydrogen atom if needed.
 
 ### Implementation Details
 
