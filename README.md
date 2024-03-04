@@ -14,9 +14,6 @@ This script is designed to adjust the partial charges of hydrogen atoms in a mol
    The adjustment per hydrogen ($\Delta q\$) is ideally distributed equally among all ($m\$) hydrogen atoms identified for adjustment:
    $$\Delta q = \frac{\Delta Q}{m}$$
 
-4. **Final Adjustment:**
-   After initial distribution and rounding, a final adjustment may be necessary to ensure the total charge matches ($Q_{obj}\$) precisely, applying a fine adjustment to one hydrogen atom if needed.
-
 ### Implementation Details
 
 The script includes functions for reading charges from a MOL2 file, adjusting hydrogen charges, formatting and saving the adjusted MOL2 file, and plotting the percentage differences in hydrogen charges. It is designed to be easily integrated into workflows requiring precise charge adjustments in molecular modeling projects.
